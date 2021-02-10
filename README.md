@@ -14,7 +14,7 @@ You can install PIP with following command
 
     $ python -m ensurepip --default-pip
 
-To update PIP please use:
+To update PIP using:
 
     $ pip install --upgrade pip
 
