@@ -62,6 +62,9 @@ if [ "$1" == "HM-RASPBERRYMATIC" ]; then
   # copy version
   cp -af VERSION ${ADDON_DIR}/
 
+  # copy icon
+  cp -af icon.png ${ADDON_DIR}/
+  
   # copy startup script
   cp -af rc.d/* ${RCD_DIR}
 

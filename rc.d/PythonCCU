@@ -10,6 +10,7 @@ case "$1" in
 ""|start)
   ;;
 info)
+  echo "Info: <center><img src=\"/addons/PythonCCU/icon.png\" height=\"48\"/></center>"
   echo "Info: <b>Python for Homematic CCU</b><br>"
   echo "Info: Python Interpreter<br>"
   echo "Info: <br>"
