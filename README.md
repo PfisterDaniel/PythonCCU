@@ -7,7 +7,7 @@ This addon works only with RaspberryMatic on
 ## Supported OS
 * [RaspberryMatic](http://homematic-forum.de/forum/viewtopic.php?f=56&t=26917)
 
-##Description
+## Description
 This addon adds a Python interpreter to [RaspberryMatic](http://homematic-forum.de/forum/viewtopic.php?f=56&t=26917).
 
 You can install PIP with following command
@@ -23,7 +23,7 @@ Install extensions e.g. Requests:
     $ pip install requests
 
 
-##Note:
+## Note
 You can only install extensions that do not require a C compiler. 
 
 ## Licenses:
