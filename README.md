@@ -1,4 +1,4 @@
-# PythonCCU
+# <img src="https://raw.githubusercontent.com/PfisterDaniel/PythonCCU/main/www/icon.png" width="48">PythonCCU
 Python Interpreter for Homematic CCU
 
 This addon works only with RaspberryMatic on
