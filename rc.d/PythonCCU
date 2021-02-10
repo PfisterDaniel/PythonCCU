@@ -10,12 +10,12 @@ case "$1" in
 ""|start)
   ;;
 info)
-  echo "Info: <center><img src=\"/addons/PythonCCU/icon.png\" height=\"48\"/></center>"
-  echo "Info: <b>Python for Homematic CCU</b><br>"
-  echo "Info: Python Interpreter<br>"
+  echo "Info: <center><a href='https://github.com/PfisterDaniel/PythonCCU'><img src=\"/addons/PythonCCU/icon.png\" height=\"48\"/></a><br/>"
+  echo "Info: <b>PythonCCU</b><br>"
+  echo "Info: Python Interpreter for Homematic CCU<br>"
   echo "Info: <br>"
   echo "Info: (c) 2021 Daniel Pfister<br>"
-  echo "Info: <a href='https://github.com/PfisterDaniel/PythonCCU'>https://github.com/PfisterDaniel/PythonCCU</a>"
+  echo "Info: <a href='https://github.com/PfisterDaniel/PythonCCU'>https://github.com/PfisterDaniel/PythonCCU</a></center>"
   echo "Version: $(cat ${ADDON_DIR}/VERSION)"
   echo "Name: PythonCCU<br>"
   echo "Operations: uninstall"
