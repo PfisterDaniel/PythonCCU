@@ -1,0 +1,32 @@
+#!/bin/sh
+
+ADDONNAME=PythonCCU
+ADDON_DIR=/usr/local/addons/PythonCCU
+PROFILE_DIR=/usr/local/etc/profile.d
+WWW_DIR=/usr/local/etc/config/addons/www/PythonCCU
+
+
+case "$1" in
+""|start)
+  ;;
+info)
+  echo "Info: <b>Python for Homematic CCU</b><br>"
+  echo "Info: Python Interpreter<br>"
+  echo "Info: <br>"
+  echo "Info: (c) 2021 Daniel Pfister<br>"
+  echo "Info: <a href='https://github.com/PfisterDaniel/PythonCCU'>https://github.com/PfisterDaniel/PythonCCU</a>"
+  echo "Version: $(cat ${ADDON_DIR}/VERSION)"
+  echo "Name: PythonCCU<br>"
+  echo "Operations: uninstall"
+  echo "Update: /addons/${ADDONNAME}/update-check.cgi"
+  ;;
+uninstall)
+  rm -rf $ADDON_DIR
+  rm -rf $WWW_DIR
+  rm -rf $PROFILE_DIR/PythonCCU-addon.sh
+  
+  ;;
+esac
+
+exit 0
+
