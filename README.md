@@ -11,12 +11,15 @@ This addon works only with RaspberryMatic on
 This addon adds a Python interpreter to [RaspberryMatic](http://homematic-forum.de/forum/viewtopic.php?f=56&t=26917).
 
 You can install PIP with following command
+
     $ python -m ensurepip --default-pip
 
 To update PIP please use:
+
     $ pip install --upgrade pip
 
 Install extensions e.g. Requests:
+
     $ pip install requests
 
 
