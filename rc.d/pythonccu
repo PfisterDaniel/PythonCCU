@@ -1,16 +1,16 @@
 #!/bin/sh
 
-ADDONNAME=PythonCCU
-ADDON_DIR=/usr/local/addons/PythonCCU
+ADDONNAME=pythonccu
+ADDON_DIR=/usr/local/addons/${ADDONNAME}
 PROFILE_DIR=/usr/local/etc/profile.d
-WWW_DIR=/usr/local/etc/config/addons/www/PythonCCU
+WWW_DIR=/usr/local/etc/config/addons/www/${ADDONNAME}
 
 
 case "$1" in
 ""|start)
   ;;
 info)
-  echo "Info: <center><a href='https://github.com/PfisterDaniel/PythonCCU'><img src=\"/addons/PythonCCU/icon.png\" height=\"48\"/></a><br/>"
+  echo "Info: <center><a href='https://github.com/PfisterDaniel/PythonCCU'><img src=\"/addons/${ADDONNAME}/icon.png\" height=\"48\"/></a><br/>"
   echo "Info: <b>PythonCCU</b><br>"
   echo "Info: Python Interpreter for Homematic CCU<br>"
   echo "Info: <br>"
@@ -24,7 +24,7 @@ info)
 uninstall)
   rm -rf $ADDON_DIR
   rm -rf $WWW_DIR
-  rm -rf $PROFILE_DIR/PythonCCU-addon.sh
+  rm -rf $PROFILE_DIR/${ADDONNAME}-addon.sh
   
   ;;
 esac

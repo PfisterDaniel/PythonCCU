@@ -1,9 +1,9 @@
 #!/bin/sh
 
-ADDON_NAME=PythonCCU
+ADDON_NAME=pythonccu
 LICENSES_DIR=licenses
 CONFIG_DIR=/usr/local/etc/config
-WWW_DIR=/usr/local/etc/config/addons/www/PythonCCU
+WWW_DIR=/usr/local/etc/config/addons/www/${ADDON_NAME}
 ADDON_DIR=/usr/local/addons/${ADDON_NAME}
 PROFILE_DIR=/usr/local/etc/profile.d
 RCD_DIR=${CONFIG_DIR}/rc.d

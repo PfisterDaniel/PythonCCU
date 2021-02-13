@@ -22,8 +22,23 @@ Install extensions e.g. Requests:
 
     $ pip install requests
 
+The extension *requests* is necessary to communicate with the Homematic components!
+
+Run example:
+
+* Change Username and Passwort in line 5:
+
+    $ cd /usr/local/addons/pythonccu/examples
+    
+    $ nano listRooms.py 
+    
+    $ python listRooms.py
+
+
 
 ## Note
+Nano is not installed on the CCU, if you want to use nano please install [HM-Tools](https://github.com/fhetty/hm-tools) from a cool guy names fhetty :-)
+
 You can only install extensions that do not require a C compiler. 
 
 ## Licenses:
@@ -40,6 +55,7 @@ The source code of the binaries is subject to the following licenses:<br>
 | Version | Description |
 | ------ | ----------- |
 | 1.0.0 | Initial Version |
+| 1.0.1 | Add examples and bugfixes |
 
 ## Bugs and feature requests
 Please create an issue in [GitHub](https://github.com/PfisterDaniel/PythonCCU/issues)
